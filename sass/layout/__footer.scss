@@ -1,0 +1,20 @@
+.footer{
+    display: flex;
+    &__redesSociales{
+        margin: auto;
+        text-align: center;
+        &--facebook{
+            color: #000;
+        }
+        &--twitter{
+            color: #000;           
+        }
+        &--instagram{
+            color: #000;
+        }
+    }
+    a i:hover {
+        transform: rotate(45deg);
+    }
+}
+
